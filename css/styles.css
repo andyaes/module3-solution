@@ -1,0 +1,88 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    margin: 0;
+
+}
+
+.row {
+    background-color: blue;
+
+}
+
+.box {
+    background-color: gray;
+    margin: 1%;
+
+    float:left;
+    border: 1px black;
+    border-style: solid;
+    
+
+}
+
+.titulo {
+    float: right;
+    border-left: 1px black;
+    border-bottom: 1px black;;
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    padding: 5px;
+    width: 25%;
+    min-width: 75px;
+    text-align: center;
+
+
+}
+
+.texto {
+    clear: right;
+    padding: 15px;
+padding-bottom: 20px;
+
+}
+
+#chicken {
+    background-color: rosybrown;
+
+}
+#beef {
+    background-color: brown;
+    color: white;
+
+}
+
+#sushi {
+    background-color: burlywood;
+
+
+}
+
+
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        width: 31%;
+
+    }
+
+}
+
+@media (max-width:991px) and  (min-width: 768px) {
+    .col-lg-3 {
+        width: 45%;
+    }
+    .cajasushi {
+        width: 92%;
+    }
+
+}
